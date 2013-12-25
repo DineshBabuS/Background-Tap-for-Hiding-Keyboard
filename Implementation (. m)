@@ -1,0 +1,9 @@
+
+
+-(IBAction)textFieldReturn:(id)sender{
+    [sender resignFirstResponder];
+}
+-(IBAction)backgroundTouched:(id)sender{
+    [usernameField resignFirstResponder];
+    [passwordField resignFirstResponder];
+}
